@@ -1,0 +1,83 @@
+.l-main-div{
+    width: 100%;
+    height: 92vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.sub_div{
+    width: 60%;
+    height: 80vh;
+    background-color: white;
+    margin-top: 0.2vh;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;  
+    overflow-y:scroll;
+     
+/*    border-width:10px;
+    border-color: black;
+    border-radius: 30px;
+        filter: drop-shadow(0 0 0.75rem blue);*/
+}
+.h3head{
+    font-size: 2vw;
+    text-align: center;
+}
+.h5head{
+    font-size: 1.2vw;
+    text-align: center;
+    color: #666;
+}
+.input{
+    width: 50%;
+    height: 5vh;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: #555;
+    text-align: center;
+}
+.input:focus {
+        outline: none;
+}
+.loginbt{
+    height: 5vh;
+    width: 15%;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+.regibt{
+    height: 5vh;
+    width: 15%;
+    background-color: #555;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+.regibt:hover{
+    cursor: pointer;
+}
+.from1{
+    align-items: center;
+    margin-top: 5%;
+}
+.loginbt:hover{
+    cursor: pointer;
+}
+.combo1{
+     width: 50%;
+    height: 5vh;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: #555;
+    text-align: center;
+}
+.combo1:focus {
+        outline: none;
+}
+
+ 

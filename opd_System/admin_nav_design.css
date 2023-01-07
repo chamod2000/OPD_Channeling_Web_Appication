@@ -1,0 +1,243 @@
+/*.maindivm{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+   border-bottom: 2px #2f2f2f solid ;
+}
+
+.divlogo{
+    width: 18%;
+    height: 8vh;
+    background-color: red;
+    margin-left: 5%;
+   top: 17%;
+   position: relative;
+   text-align: center;
+  
+}
+.navdiv{
+    width: 100%;
+    height: 7vh;
+    background-color: red;
+    color: white;
+    position: fixed;
+}
+.h2text{
+    font-family: monospace;
+    color: white;
+    font-size: 2.3vw;
+    position: relative;
+    margin-top: -2%;
+    top: 15%;
+   
+}
+.mainbt{
+    margin-left: 87%;
+    position: relative;
+    margin-top:-3%;
+    width: 8%;
+    height: 7vh;
+    background-color: transparent;
+    border-style: solid;
+    border-color: black;
+    color: black;
+   
+}
+.mainbt2{
+    margin-left: 77%;
+    position: relative;
+    margin-top: -2%;
+    width: 8%;
+    height: 7vh;
+    background-color: transparent;
+    border-style: solid;
+    border-color: black;
+    color: black;
+   
+}
+.mainbt2:hover{
+    cursor: pointer;
+      background-color: #6666ff;
+    color: white;
+    border-style: none;
+}
+.mainbt:hover{
+    cursor: pointer;
+      background-color: #6666ff;
+    color: white;
+    border-style: none;
+}
+
+
+.showdiv{
+     width: 50%;
+    height: 25vh;
+    margin-left: auto;
+    border-radius: 5px;
+}
+.bthover:hover +.hide{
+    cursor:pointer;
+    display: block;
+    background-color: white;
+    color: black;
+     
+}
+.bttext{
+    position: relative;
+    top: 5%;
+    font-size: 1.3vw;
+    
+}
+.closemark{
+   background-color: red;
+   color: white;
+    display: block;
+    margin-left: auto;
+    border-style: none;
+    position:relative;
+        
+}
+.closemark:hover{
+  cursor: pointer;  
+  
+    
+}
+ 
+span{
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    margin-top: 2%;
+    position: relative;
+    text-decoration: none;
+}
+span:hover{
+    cursor: pointer;
+}
+.sp1{
+   margin-left: 9%; 
+   margin-top: 3%;
+}
+.sp2{
+    margin-left: 5%; 
+}
+.sp3{
+   margin-left: 5% 
+}
+.sp4{
+    margin-left: 5%; 
+}
+.sp5{
+    margin-left: 5%; 
+}
+.sp6{
+   margin-left: 5%;  
+}
+.sp7{
+  margin-left: 5%; 
+}
+a.nounderline:link  
+{  
+ text-decoration:none;  
+} */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+	color: #34495e;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}

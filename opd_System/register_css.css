@@ -1,0 +1,184 @@
+.l-main-div{
+    width: 100%;
+    height: 92vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.sub_div{
+    width: 60%;
+    height: 80vh;
+    background-color: white;
+    margin-top: 2vh;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;  
+    overflow-y:scroll;
+    webkit-scrollbar:width: 20px;
+/*    border-width:10px;
+    border-color: black;
+    border-radius: 30px;
+        filter: drop-shadow(0 0 0.75rem blue);*/
+}
+.h3head{
+    font-size: 2vw;
+    text-align: center;
+}
+.h5head{
+    font-size: 1.2vw;
+    text-align: center;
+    color: #666;
+}
+.input{
+    width: 50%;
+    height: 5vh;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: #00ff33;
+    text-align: center;
+}
+.input:focus {
+        outline: none;
+}
+.input1{
+    width: 50%;
+    height: 5vh;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: #ff6600;
+    text-align: center;
+}
+.input1:focus {
+        outline: none;
+}
+.loginbt{
+    height: 5vh;
+    width: 15%;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+.regibt{
+    height: 5vh;
+    width: 15%;
+    background-color: #00ff33;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+.regibt:hover{
+    cursor: pointer;
+}
+.regibt1{
+    height: 5vh;
+    width: 15%;
+    background-color: #ff6600;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+}
+.regibt:hover{
+    cursor: pointer;
+}
+.from1{
+    align-items: center;
+    margin-top: 5%;
+}
+.loginbt:hover{
+    cursor: pointer;
+}
+.combo1{
+     width: 50%;
+    height: 5vh;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: #00ff33;
+    text-align: center;
+}
+.combo1:focus {
+        outline: none;
+}
+.combo11{
+     width: 50%;
+    height: 5vh;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color:  #ff6600;
+    text-align: center;
+}
+.combo11:focus {
+        outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border-style: none;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+    
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+ border-style: none;
+ border-top: solid;
+ border-bottom: solid;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tablinks{
+    align-items: center;
+    
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ff6600;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+/*  padding: 6px 12px;*/
+  border-style: none;
+  border-top: none;
+}
+ 

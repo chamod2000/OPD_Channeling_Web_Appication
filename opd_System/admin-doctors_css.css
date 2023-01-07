@@ -1,0 +1,106 @@
+
+
+.maindivadmin{
+    width: 100%;
+    height: 105vh;
+/*    background-color: #888;*/
+    background-color: #92999f;
+}
+.divadmin{
+    width: 100%;
+    height:90vh;
+    background-color: #333333;
+    margin-right: auto;
+      display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.divadminsub{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+   
+    text-align: center;
+     overflow-y:scroll;
+}
+.divadminsub1{
+    width: 100%;
+    height: 89vh;
+    background-color: red;
+   
+    text-align: center;
+     overflow-y:scroll;
+}
+.inputadmin{
+    width: 40%;
+    height: 6vh;
+/*    webkit-border-radius: 5px;
+-moz-border-radius: 5px;*/
+ 
+/*border-color:  #999999;*/
+/*box-shadow: 0.5px 0.5px #999;*/
+text-align: center;
+    font-family: sans-serif;
+}
+.inputadmin1{
+    width: 35%;
+    height: 6vh;
+/*    webkit-border-radius: 5px;
+-moz-border-radius: 5px;*/
+ 
+/*border-color:  #999999;*/
+/*box-shadow: 0.5px 0.5px #999;*/
+text-align: center;
+    font-family: sans-serif;
+}
+.adminbt{
+    width: 10%;
+    height: 5vh;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #003399;
+    color: white;
+}
+.fromdiv{
+    margin-top: 0%;
+    text-align: center;
+    width: 100%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.inputfield{
+    border: none;
+}
+.combo1{
+     width: 40%;
+    height: 5vh;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-color: #555;
+    text-align: center;
+}
+.combo1:focus {
+        outline: none;
+}
+.from1{
+    margin-left: 5%;
+}
+.from12{
+    margin-left: 60%;
+    margin-top: -40%;
+}
